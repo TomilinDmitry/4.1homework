@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <div class="logo">МОСПОЛИТЕХ</div>
+    <div class="logo"><img src="/image.png" alt="logo"></div>
     <h1>Форма обратной связи</h1>
 </header>
 

@@ -21,12 +21,13 @@ header {
     background: white;
     border-bottom: 1px solid #ddd;
     position: relative;
+    background:black;
+
 }
 
 .logo {
     font-size: 20px;
     font-weight: 700;
-    color: #0066cc;
 }
 
 header h1 {
@@ -35,6 +36,7 @@ header h1 {
     transform: translateX(-50%);
     white-space: nowrap;
     font-size: 26px;
+    color:white;
 }
 
 main {
