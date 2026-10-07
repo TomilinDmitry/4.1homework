@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: #f4f5f7;
+    color: #222;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0066cc;
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 26px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.form,
+.headers-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 35px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+fieldset {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 0 5px;
+    font-weight: 600;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.checkbox input {
+    width: auto;
+}
+
+button {
+    margin-top: 15px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #0066cc;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0052a3;
+}
+
+.link {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.headers-container textarea {
+    min-height: 400px;
+    resize: vertical;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #ddd;
+}
