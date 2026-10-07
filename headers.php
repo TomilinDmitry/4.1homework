@@ -23,7 +23,7 @@ if ($headers === false) {
 <body>
 
 <header>
-    <div class="logo">МОСПОЛИТЕХ</div>
+    <div class="logo"><img src="/image.png" alt="logo"></div>
     <h1>Результат работы get_headers</h1>
 </header>
 
